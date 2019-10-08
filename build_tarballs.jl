@@ -6,7 +6,7 @@ using BinaryBuilder
 
 # Collection of sources required to build Arpack
 name = "Arpack"
-version = v"3.6.3"
+version = v"3.7.0"
 sources = [
     "https://github.com/opencollab/arpack-ng.git" =>
     "a580f6fc103c4bba1630ddd957b0b5f58dec284c",
