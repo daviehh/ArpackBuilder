@@ -2,7 +2,7 @@ language: julia
 os:
   - linux
 julia:
-  - 1.0
+  - 1.2
 notifications:
   email: false
 git:
@@ -29,5 +29,5 @@ deploy:
   file: products/*
   skip_cleanup: true
   on:
-    repo: JuliaLinearAlgebra/ArpackBuilder
+    repo: daviehh/ArpackBuilder
     tags: true
