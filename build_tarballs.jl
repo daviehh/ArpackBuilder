@@ -72,7 +72,7 @@ make install VERBOSE=1
 # Eventually, this should be fixed upstream
 if [[ ${target} == "x86_64-apple-darwin14" ]]; then
     echo "-- Modifying library name for OpenBLAS"
-    install_name_tool -change libopenblas64_.0.3.0.dev.dylib libopenblas64_.dylib ${prefix}/lib/libarpack.2.0.0.dylib
+    install_name_tool -change libopenblas64_.0.3.0.dev.dylib libopenblas64_.dylib ${prefix}/lib/libarpack.2.1.0.dylib
 fi
 """
 
